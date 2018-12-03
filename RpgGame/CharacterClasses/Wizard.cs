@@ -14,6 +14,7 @@ namespace RpgGame.CharacterClasses
         public Wizard(string name, EntityGender gender) : base()
         {
             //to generate stats for base class
+            //need to add random number gen
 
         }
 
