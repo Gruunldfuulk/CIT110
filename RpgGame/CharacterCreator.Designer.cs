@@ -32,8 +32,8 @@
             this.Lbl_Name = new System.Windows.Forms.Label();
             this.Txt_CharacterName = new System.Windows.Forms.TextBox();
             this.Gbox_Gender = new System.Windows.Forms.GroupBox();
-            this.Rdo_GenderMale = new System.Windows.Forms.RadioButton();
             this.Rdo_GenderFemale = new System.Windows.Forms.RadioButton();
+            this.Rdo_GenderMale = new System.Windows.Forms.RadioButton();
             this.Cbo_CharacerClass = new System.Windows.Forms.ComboBox();
             this.Lbl_CharacerClass = new System.Windows.Forms.Label();
             this.Btn_SaveCharacter = new System.Windows.Forms.Button();
@@ -67,17 +67,6 @@
             this.Gbox_Gender.TabStop = false;
             this.Gbox_Gender.Text = "Gender";
             // 
-            // Rdo_GenderMale
-            // 
-            this.Rdo_GenderMale.AutoSize = true;
-            this.Rdo_GenderMale.Location = new System.Drawing.Point(6, 19);
-            this.Rdo_GenderMale.Name = "Rdo_GenderMale";
-            this.Rdo_GenderMale.Size = new System.Drawing.Size(48, 17);
-            this.Rdo_GenderMale.TabIndex = 0;
-            this.Rdo_GenderMale.TabStop = true;
-            this.Rdo_GenderMale.Text = "Male";
-            this.Rdo_GenderMale.UseVisualStyleBackColor = true;
-            // 
             // Rdo_GenderFemale
             // 
             this.Rdo_GenderFemale.AutoSize = true;
@@ -88,6 +77,17 @@
             this.Rdo_GenderFemale.TabStop = true;
             this.Rdo_GenderFemale.Text = "Female";
             this.Rdo_GenderFemale.UseVisualStyleBackColor = true;
+            // 
+            // Rdo_GenderMale
+            // 
+            this.Rdo_GenderMale.AutoSize = true;
+            this.Rdo_GenderMale.Location = new System.Drawing.Point(6, 19);
+            this.Rdo_GenderMale.Name = "Rdo_GenderMale";
+            this.Rdo_GenderMale.Size = new System.Drawing.Size(48, 17);
+            this.Rdo_GenderMale.TabIndex = 0;
+            this.Rdo_GenderMale.TabStop = true;
+            this.Rdo_GenderMale.Text = "Male";
+            this.Rdo_GenderMale.UseVisualStyleBackColor = true;
             // 
             // Cbo_CharacerClass
             // 
@@ -113,9 +113,9 @@
             // 
             // Btn_SaveCharacter
             // 
-            this.Btn_SaveCharacter.Location = new System.Drawing.Point(16, 181);
+            this.Btn_SaveCharacter.Location = new System.Drawing.Point(15, 180);
             this.Btn_SaveCharacter.Name = "Btn_SaveCharacter";
-            this.Btn_SaveCharacter.Size = new System.Drawing.Size(139, 48);
+            this.Btn_SaveCharacter.Size = new System.Drawing.Size(140, 50);
             this.Btn_SaveCharacter.TabIndex = 5;
             this.Btn_SaveCharacter.Text = "Save";
             this.Btn_SaveCharacter.UseVisualStyleBackColor = true;
@@ -125,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(355, 310);
+            this.ClientSize = new System.Drawing.Size(279, 276);
             this.Controls.Add(this.Btn_SaveCharacter);
             this.Controls.Add(this.Lbl_CharacerClass);
             this.Controls.Add(this.Cbo_CharacerClass);
@@ -133,7 +133,11 @@
             this.Controls.Add(this.Txt_CharacterName);
             this.Controls.Add(this.Lbl_Name);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(220, 50);
+            this.MaximumSize = new System.Drawing.Size(295, 315);
+            this.MinimumSize = new System.Drawing.Size(295, 315);
             this.Name = "Frm_CharacterCreator";
+            this.ShowIcon = false;
             this.Text = "Create You Character";
             this.Gbox_Gender.ResumeLayout(false);
             this.Gbox_Gender.PerformLayout();

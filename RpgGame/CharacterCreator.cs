@@ -20,10 +20,6 @@ namespace RpgGame
 
         private void Btn_SaveCharacter_Click(object sender, EventArgs e)
         {
-            //Wizard player1 = new Wizard();
-
-            //MessageBox.Show("You have a new Wizard with a stregth of" + player1.Strength.ToString() + ".", "New Wizard");
-
 
             // make sure the user picks a name
             if (String.IsNullOrEmpty(Txt_CharacterName.Text) || 
@@ -42,6 +38,18 @@ namespace RpgGame
             string gender = (string)(this.Rdo_GenderMale.Checked ? "Male" : "Female");
             //show output
             //MessageBox.Show(output);
+
+            // make sure the user picks a class
+
+            if (Cbo_CharacerClass)
+            {
+                Wizard player1 = new Wizard();
+
+                MessageBox.Show("You have a new Wizard with a stregth of" + player1.Physique.ToString() + ".", "New Wizard");
+
+            }
+
+
         }
     }
 }

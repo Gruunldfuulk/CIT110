@@ -39,37 +39,39 @@
             // Lbl_GameTitle
             // 
             this.Lbl_GameTitle.AutoSize = true;
+            this.Lbl_GameTitle.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Lbl_GameTitle.Font = new System.Drawing.Font("Gabriola", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_GameTitle.Location = new System.Drawing.Point(133, 31);
+            this.Lbl_GameTitle.Location = new System.Drawing.Point(1, 9);
             this.Lbl_GameTitle.Name = "Lbl_GameTitle";
-            this.Lbl_GameTitle.Size = new System.Drawing.Size(130, 54);
+            this.Lbl_GameTitle.Size = new System.Drawing.Size(112, 54);
             this.Lbl_GameTitle.TabIndex = 0;
-            this.Lbl_GameTitle.Text = "Game Title";
+            this.Lbl_GameTitle.Text = "Dungeon";
             // 
             // Btn_CreateCharacter
             // 
-            this.Btn_CreateCharacter.Location = new System.Drawing.Point(142, 114);
+            this.Btn_CreateCharacter.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Btn_CreateCharacter.Location = new System.Drawing.Point(3, 89);
             this.Btn_CreateCharacter.Name = "Btn_CreateCharacter";
-            this.Btn_CreateCharacter.Size = new System.Drawing.Size(111, 30);
+            this.Btn_CreateCharacter.Size = new System.Drawing.Size(110, 30);
             this.Btn_CreateCharacter.TabIndex = 1;
             this.Btn_CreateCharacter.Text = "Create Character";
-            this.Btn_CreateCharacter.UseVisualStyleBackColor = true;
+            this.Btn_CreateCharacter.UseVisualStyleBackColor = false;
             this.Btn_CreateCharacter.Click += new System.EventHandler(this.Btn_CreateCharacter_Click);
             // 
             // Btn_LoadGame
             // 
-            this.Btn_LoadGame.Location = new System.Drawing.Point(160, 164);
+            this.Btn_LoadGame.Location = new System.Drawing.Point(3, 136);
             this.Btn_LoadGame.Name = "Btn_LoadGame";
-            this.Btn_LoadGame.Size = new System.Drawing.Size(75, 23);
+            this.Btn_LoadGame.Size = new System.Drawing.Size(75, 25);
             this.Btn_LoadGame.TabIndex = 2;
             this.Btn_LoadGame.Text = "Load Game";
             this.Btn_LoadGame.UseVisualStyleBackColor = true;
             // 
             // Btn_Options
             // 
-            this.Btn_Options.Location = new System.Drawing.Point(160, 202);
+            this.Btn_Options.Location = new System.Drawing.Point(3, 167);
             this.Btn_Options.Name = "Btn_Options";
-            this.Btn_Options.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Options.Size = new System.Drawing.Size(75, 25);
             this.Btn_Options.TabIndex = 3;
             this.Btn_Options.Text = "Options";
             this.Btn_Options.UseVisualStyleBackColor = true;
@@ -77,9 +79,9 @@
             // 
             // Btn_Credits
             // 
-            this.Btn_Credits.Location = new System.Drawing.Point(160, 245);
+            this.Btn_Credits.Location = new System.Drawing.Point(3, 198);
             this.Btn_Credits.Name = "Btn_Credits";
-            this.Btn_Credits.Size = new System.Drawing.Size(75, 23);
+            this.Btn_Credits.Size = new System.Drawing.Size(75, 25);
             this.Btn_Credits.TabIndex = 4;
             this.Btn_Credits.Text = "Credits";
             this.Btn_Credits.UseVisualStyleBackColor = true;
@@ -89,13 +91,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 326);
+            this.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(254, 446);
             this.Controls.Add(this.Btn_Credits);
             this.Controls.Add(this.Btn_Options);
             this.Controls.Add(this.Btn_LoadGame);
             this.Controls.Add(this.Btn_CreateCharacter);
             this.Controls.Add(this.Lbl_GameTitle);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(270, 485);
+            this.MinimumSize = new System.Drawing.Size(270, 485);
             this.Name = "Frm_Menu";
             this.Text = "Main Menu";
             this.Load += new System.EventHandler(this.Frm_Menu_Load);
