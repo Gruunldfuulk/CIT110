@@ -20,10 +20,10 @@ namespace RpgGame.CharacterClasses
             Gender = eGender;
             CharacterClass = eClass;
             _physique = rand.Next(5, 10);
-            _spirit = rand.Next(1, 5);
-            _cunning = rand.Next(3, 7);
-            _health = rand.Next(10, 14);
-            _energy = rand.Next(4, 8);
+            _spirit = rand.Next(5, 10);
+            _cunning = rand.Next(5, 10);
+            _health = rand.Next(10, 15);
+            _energy = rand.Next(5, 10);
 
         }
 

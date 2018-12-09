@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RpgGame.CharacterClasses
 {
-    class Fighter : Player
+    class Fighter : Entity
     {
         Random rand = new Random();
 

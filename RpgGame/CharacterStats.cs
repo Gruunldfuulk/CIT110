@@ -13,6 +13,8 @@ namespace RpgGame
 {
     public partial class CharacterStats : Form
     {
+        
+
         public CharacterStats()
         {
             InitializeComponent();
@@ -34,8 +36,10 @@ namespace RpgGame
 
         private void Btn_Close_Click(object sender, EventArgs e)
         {
-            Frm_Menu home = new Frm_Menu();
-            home.Show();
+            // Plan to have this pull up the main_menu again
+            //Frm_Menu home = new Frm_Menu();
+            //home.Show();
+
             this.Hide();
         }
     }

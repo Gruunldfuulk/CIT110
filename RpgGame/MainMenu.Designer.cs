@@ -59,16 +59,18 @@
             // 
             // Btn_LoadGame
             // 
-            this.Btn_LoadGame.Location = new System.Drawing.Point(3, 148);
+            this.Btn_LoadGame.BackColor = System.Drawing.Color.Turquoise;
+            this.Btn_LoadGame.Location = new System.Drawing.Point(242, 431);
             this.Btn_LoadGame.Name = "Btn_LoadGame";
-            this.Btn_LoadGame.Size = new System.Drawing.Size(75, 25);
+            this.Btn_LoadGame.Size = new System.Drawing.Size(11, 12);
             this.Btn_LoadGame.TabIndex = 2;
             this.Btn_LoadGame.Text = "Load Game";
-            this.Btn_LoadGame.UseVisualStyleBackColor = true;
+            this.Btn_LoadGame.UseVisualStyleBackColor = false;
+            this.Btn_LoadGame.Click += new System.EventHandler(this.Btn_LoadGame_Click);
             // 
             // Btn_Credits
             // 
-            this.Btn_Credits.Location = new System.Drawing.Point(3, 198);
+            this.Btn_Credits.Location = new System.Drawing.Point(3, 146);
             this.Btn_Credits.Name = "Btn_Credits";
             this.Btn_Credits.Size = new System.Drawing.Size(75, 25);
             this.Btn_Credits.TabIndex = 4;

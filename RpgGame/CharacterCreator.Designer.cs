@@ -43,9 +43,11 @@
             // Lbl_Name
             // 
             this.Lbl_Name.AutoSize = true;
+            this.Lbl_Name.BackColor = System.Drawing.Color.Firebrick;
+            this.Lbl_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Name.Location = new System.Drawing.Point(13, 13);
             this.Lbl_Name.Name = "Lbl_Name";
-            this.Lbl_Name.Size = new System.Drawing.Size(35, 13);
+            this.Lbl_Name.Size = new System.Drawing.Size(39, 13);
             this.Lbl_Name.TabIndex = 0;
             this.Lbl_Name.Text = "Name";
             // 
@@ -58,6 +60,7 @@
             // 
             // Gbox_Gender
             // 
+            this.Gbox_Gender.BackColor = System.Drawing.Color.Firebrick;
             this.Gbox_Gender.Controls.Add(this.Rdo_GenderFemale);
             this.Gbox_Gender.Controls.Add(this.Rdo_GenderMale);
             this.Gbox_Gender.Location = new System.Drawing.Point(16, 51);
@@ -105,26 +108,31 @@
             // Lbl_CharacerClass
             // 
             this.Lbl_CharacerClass.AutoSize = true;
+            this.Lbl_CharacerClass.BackColor = System.Drawing.Color.Firebrick;
+            this.Lbl_CharacerClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_CharacerClass.Location = new System.Drawing.Point(13, 131);
             this.Lbl_CharacerClass.Name = "Lbl_CharacerClass";
-            this.Lbl_CharacerClass.Size = new System.Drawing.Size(32, 13);
+            this.Lbl_CharacerClass.Size = new System.Drawing.Size(37, 13);
             this.Lbl_CharacerClass.TabIndex = 4;
             this.Lbl_CharacerClass.Text = "Class";
             // 
             // Btn_SaveCharacter
             // 
+            this.Btn_SaveCharacter.BackColor = System.Drawing.Color.Firebrick;
             this.Btn_SaveCharacter.Location = new System.Drawing.Point(15, 180);
             this.Btn_SaveCharacter.Name = "Btn_SaveCharacter";
             this.Btn_SaveCharacter.Size = new System.Drawing.Size(140, 50);
             this.Btn_SaveCharacter.TabIndex = 5;
             this.Btn_SaveCharacter.Text = "Save";
-            this.Btn_SaveCharacter.UseVisualStyleBackColor = true;
+            this.Btn_SaveCharacter.UseVisualStyleBackColor = false;
             this.Btn_SaveCharacter.Click += new System.EventHandler(this.Btn_SaveCharacter_Click);
             // 
             // Frm_CharacterCreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(279, 276);
             this.Controls.Add(this.Btn_SaveCharacter);
             this.Controls.Add(this.Lbl_CharacerClass);
