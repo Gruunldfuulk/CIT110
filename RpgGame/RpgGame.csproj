@@ -47,12 +47,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CharacterClasses\Entity.cs" />
+    <Compile Include="CharacterClasses\Fighter.cs" />
+    <Compile Include="CharacterClasses\FileManager.cs" />
+    <Compile Include="CharacterClasses\NPC.cs" />
+    <Compile Include="CharacterClasses\Player.cs" />
     <Compile Include="CharacterClasses\Wizard.cs" />
     <Compile Include="CharacterCreator.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CharacterCreator.Designer.cs">
       <DependentUpon>CharacterCreator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CharacterStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CharacterStats.Designer.cs">
+      <DependentUpon>CharacterStats.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
@@ -64,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CharacterCreator.resx">
       <DependentUpon>CharacterCreator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CharacterStats.resx">
+      <DependentUpon>CharacterStats.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>

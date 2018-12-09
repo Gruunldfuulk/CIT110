@@ -6,26 +6,25 @@ using System.Threading.Tasks;
 
 namespace RpgGame.CharacterClasses
 {
-    class Wizard : Player
+    class Fighter : Player
     {
         Random rand = new Random();
 
-        public Wizard() :
+        public Fighter() :
             base()
         {
 
         }
-        public Wizard(string name, EntityGender gender, EntityClass eClass) :
+        public Fighter(string name, EntityGender gender, EntityClass eClass) : 
             base()
         {
             Name = name;
             Gender = gender;
-            _physique = rand.Next(1, 5);
-            _spirit = rand.Next(5, 10);
+            _physique = rand.Next(5, 10);
+            _spirit = rand.Next(1, 5);
             _cunning = rand.Next(3, 7);
-            _health = rand.Next(5, 8);
-            _energy = rand.Next(10, 14);
+            _health = rand.Next(10, 14);
+            _energy = rand.Next(4, 8);
         }
-
     }
 }

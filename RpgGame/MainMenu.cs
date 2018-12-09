@@ -28,14 +28,11 @@ namespace RpgGame
             characterCreator.Show();
         }
 
-        private void Btn_Options_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void Btn_Credits_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Lead Designer: Alexandru Juhasz\n" + "Main Menu Background Art: Adi Juhasz\n" +
+                "Character Stat Background: Veronica Spriggs");
         }
 
 
